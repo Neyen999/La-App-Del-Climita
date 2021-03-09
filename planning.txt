@@ -1,0 +1,4 @@
+// Estrategia
+
+* 1- Maquetar mi HTML con 2 inputs, uno de busqueda y uno de submit, y un div donde se impriman los datos de mi api
+* 2- En JS obtener los datos de la API y enviarlos al HTML.
