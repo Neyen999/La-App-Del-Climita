@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <!--
+      Snowpack will replace / with the value you have for `baseUrl` in `snowpack.config.js`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+    -->
+  <link rel="stylesheet" type="text/css" href="/_dist_/index.css" />
+  <title>The Weather App</title>
+</head>
+
+<body>
+  <header class="header mb-10 animate__animated animate__slideInLeft">
+    <h1 class="font-mono text-4xl font-black text-white">La App Del Climita</h1>
+  </header>
+  <main>
+    <div class="input-section animate__animated animate__slideInLeft">
+      <input id="Search" class="input shadow-md" type="text" placeholder="Busca una ciudad...">
+      <button class="boton font-sans font-bold text-gray-900 shadow-md focus:outline-none active:outline-none"
+        id="Submit">Submit</button>
+    </div>
+    <div class="weather-cards-container" id="container">
+
+    </div>
+  </main>
+  <footer class="
+  footer">
+  </footer>
+
+  <!-- Add more scripts here -->
+  <script type="module" src="/_dist_/index.js"></script>
+</body>
+
+</html>
